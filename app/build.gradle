@@ -4,14 +4,7 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('D:\\tool\\tv_src\\default.jks')
-            storePassword 'default'
-            keyAlias 'default'
-            keyPassword 'default'
-        }
-    }
+
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
